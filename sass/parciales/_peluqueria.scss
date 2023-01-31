@@ -1,0 +1,85 @@
+@import "vars";
+.section-peluqueria{
+    width: 100%;
+    .titulo-peluqueria{
+        text-align: center;
+        margin: 40px;
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .card-wrapper{
+        max-width: 1100px;
+        margin: 0 auto;
+        .card{
+            .img-display{
+                .img-showcase{
+                    display: block;
+                    width: 100%;
+                    @include tablet {
+                        display: inline-table;
+                        margin-left: 4rem;
+                    }
+                    img{
+                        width: 300px;
+                        height: 200px;
+                        object-fit: cover;
+                        object-position: center;
+                        border: 1px solid $secondary-color;
+                        margin: 5px;
+                    }
+                }
+            }
+            .product-content{
+                padding: 1rem;
+                display: block;
+                .product-title{
+                    font-size: 2rem;
+                    font-weight: 700;
+                    position: relative;
+                    color: $primary-color;
+                    margin: 0.5rem 0;
+                    @include tablet {
+                        font-size: 40px;
+                        text-align: center;
+                    }
+                }
+                .product-detail{
+                    p{
+                        font-size: 0.9rem;
+                        width: 40%;
+                        padding: 0.3rem;
+                        opacity: 0.8;
+                        @include tablet {
+                            width: 100%;
+                            text-align: center;
+                            font-size: 24px;
+                        }
+                    }
+                }
+                .purchase-info{
+                    margin: 1.5rem 0;
+                    @include tablet {
+                        display: grid;
+                    }
+                    .btn{
+                        border: 1.5px solid #ddd;
+                        border-radius: 25px;
+                        text-align: center;
+                        padding: 0.45rem 0.8rem;
+                        outline: 0;
+                        margin-right: 0.2rem;
+                        margin-bottom: 1rem;
+                        cursor: pointer;
+                        background: #256eff;
+                        color: #fff;
+                       &:hover{
+                        opacity: 0.9;
+                        }
+                    }
+                } 
+
+            }
+        }
+    }
+}

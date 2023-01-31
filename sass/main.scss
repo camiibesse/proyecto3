@@ -1,5 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./parciales/media-query";
+@import "./parciales/reset";
+@import "./parciales/header";
+@import "./parciales/menu";
+@import "./parciales/footer";
+@import "./parciales/vars";
+@import "./parciales/contacto";
+@import "./parciales/accesorios";
+@import "./parciales/peluqueria";
+
