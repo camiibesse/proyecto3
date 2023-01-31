@@ -60,7 +60,7 @@
       color: #ff7e44;
       border-bottom: 1px solid #ff7e44; }
   .header .hero {
-    background-image: url("../../images/fondo.jpg");
+    background-image: url("../images/fondo.jpg");
     background-size: cover;
     width: 100%;
     padding: 230px 0 180px; }
