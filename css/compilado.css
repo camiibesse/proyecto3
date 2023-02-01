@@ -60,7 +60,7 @@
       color: #ff7e44;
       border-bottom: 1px solid #ff7e44; }
   .header .hero {
-    background-image: url("../../images/carrousel1.jpg");
+    background-image: url("../images/fondo.png");
     background-size: cover;
     width: 100%;
     padding: 230px 0 180px; }
@@ -350,7 +350,7 @@
   .menu .section3 {
     width: 100%;
     position: relative;
-    background-image: url("../../images/section3.jpg");
+    background-image: url("../images/section3.jpg");
     background-size: cover; }
     .menu .section3 .fila {
       display: flex; }
