@@ -21,8 +21,6 @@
         display: block;
         text-align: center;
         padding: 20px 0; } }
-    .header .fila .icon-menu {
-      display: none; }
   .header .header__nav ul {
     display: flex; }
     @media screen and (max-width: 820px) {
